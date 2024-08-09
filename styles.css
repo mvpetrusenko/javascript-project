@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0; 
+    padding: 0;
+} 
+
+
+
+header.sticky { 
+    position: -webkit-sticky; 
+    position: sticky; 
+    top: 0; 
+    background-color: lightsalmon; 
+    border: 2px solid lightgreen; 
+    z-index: 1000; /* Ensure the header stays on top */
+    overflow: hidden; /* Ensures the header contains the floated elements */
+}
+
+
+.logo {
+    float: left; 
+    padding: 10px 10px 10px 10px;
+    width: 100px; 
+    height: 100px;
+} 
+
+h1 {
+    float: center;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center; /* Vertically centers the text */ 
+    padding-top: 20px; 
+    padding-bottom: 10px;
+}
+
+
+
+main {
+    padding: 20px;
+} 
+
+
+iframe.introductionVideo { 
+    margin: 10px 50px 10px 100px; 
+    width: 85%; 
+    height: 400px; 
+    padding-top: 5px; 
+    padding-bottom: 5px;
+
+}
+
+h3 {
+    background-color: blue; 
+    color: wheat; 
+    margin: 25px 50px 10px 100px; 
+    width: 85%; 
+    height: 35px;
+    text-align: center; 
+    padding-top: 20px; 
+    padding-bottom: 10px;
+} 
+
+/* Container styling using Flexbox */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+nav {
+    flex: 0 0 30%; /* 30% width for the nav */
+    height: 300px; 
+    background: #ccc; 
+    padding: 20px;
+} 
+
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+} 
+
+article {
+    flex: 1; /* Takes the remaining space, i.e., 70% */
+    padding: 20px; 
+    background-color: #f1f1f1; 
+    height: 300px;
+} 
+
+
+
+fieldset { 
+    background-color: lightskyblue;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 10px; 
+    width: 30%; 
+    float: center;
+}
+
+legend {
+    
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+
+input {
+    width: 45%; 
+    margin: 5px 5px 10px 5px; 
+    padding: 5px 5px 5px 5px;
+    box-sizing: content-box;
+} 
+
+input[type="checkbox"] { 
+
+    width: 20px;
+    
+}
+
+input[type="submit"] {
+    width: 15%;
+    margin-top: 10px;
+    float: right; 
+} 
+
+div.output {
+
+    width: 75%; 
+    height: 2px; 
+    padding: 10px 30px 50px 50px;
+    margin: 15px 5px; 
+    background-color: azure;
+}
+
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }  
+
