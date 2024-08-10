@@ -174,4 +174,11 @@ div.contactsForm {
     padding: 20px;
     margin: 5px 5px 5px 5px;
     width: 80%;
+} 
+
+
+.validateFormError {
+    font-size: 14px; 
+    color: red; 
+    font-weight: bold;
 }
