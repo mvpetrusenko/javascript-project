@@ -41,23 +41,23 @@ var outputEmail = document.getElementById("emailError");
 
 function validateEmail() { 
 
-    //alert("What a mess!")
+    //alert("What?")
 
-    if(pattern.test(input.value)) {
-        output.innerHTML = ''; 
+    if(pattern.test(inputEmail.value)) {
+        outputEmail.innerHTML = ''; 
     } 
     else {
-        output.innerHTML = 'Ivalid email format';
+        outputEmail.innerHTML = 'Ivalid email format';
     }
  
 } 
 
 function deleteEmailMessage() { 
 
-    //alert("What a mess!")
+    //alert("What?")
 
-    if(pattern.test(input.value)) {
-        output.innerHTML = '';
+    if(pattern.test(inputEmail.value)) {
+        outputEmail.innerHTML = '';
     } 
     
  
